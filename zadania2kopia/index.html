@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" language="JavaScript"></script>
+    <title>Test Input</title>
+</head>
+<body>
+    <div id="calcresult">Calculator</div>
+    <form name="calculatorform" action="" method="get">
+        <p>Enter something in the box</p>
+        <p><input type="number" name="n1" value="" size="10"><input type="text" name="symbol" value="" size="1"><input type="number" name="n2" value="" size="10"></p>
+        <p><input type="button" name="button" value="click" onclick="handleCalculatorForm(this.form)"></p>
+    </form>
+    <div id="calcresult">Polidrom</div>
+    <form name="palindromeform" action="" method="get">enter something in the box: <br>
+        <input type="text" name="inputbox2" value=""><p>
+        <input type="button" name="button2" value="click" onclick="handlePalindromeForm(this.form)">
+    </form>
+    <div id="palindromeresult"></div>
+    <div>anagram:</div>
+    <form name="anagramform" action="" method="get">enter something in the box: <br>
+        <input type="text" name="inputbox3" value=""><p>
+        <input type="text" name="inputbox4" value=""><p></p>
+        <input type="button" name="button3" value="click" onclick="handleAnagramForm(this.form)">
+    </form>
+    <div id="anagramresult"></div>
+    <br>
+    <div>wyświetlanie liczb</div><br>
+    <form name="liczby_z_zakresu" action="" method="get">Podaj 2 liczby całkowite <br>
+        <input type="number" name="a" value=""><p>
+        <input type="number" name="b" value=""><p></p>
+        <input type="button" name="button4" value="click" onclick="handleNumberForm(this.form)">
+    </form>
+    <div id="liczbyres"></div>
+</body>
+</html>
+
+
+
+
+
+
+
